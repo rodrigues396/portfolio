@@ -1,25 +1,29 @@
 .header{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
     padding: 10px;
 }
-.header .logo{
-    width: 34px;
-    font-size: 200px;
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.menu .logo{
     width: 80px;
 }
-.nav ul{
-    display: flex;
+.menuBars{
+    background-color: white;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
 }
-.nav li{
+.navMenu li{
     padding: 10px 15px;
     border-radius: 5px;
     border-bottom: 1px solid var(--cor02);
     border-top: 1px solid var(--cor02);
-
-    margin-right: 5px;
+    text-align: center;
+}
+.hide{
+    display: none;
 }
 .secPerfil{
     display: flex; 
@@ -100,4 +104,28 @@
 .button img{
     margin-left: 10px;
     height: 20px;
+}
+
+@media screen and (min-width: 400px){
+    .navheader{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .nav{
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    .navMenu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .menuBars{
+        display: none;
+    }
 }

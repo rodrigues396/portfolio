@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/solid.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/secperfil.css">
 
@@ -11,14 +12,19 @@
 </head>
 <body>
     <header class="header">
-        <img class="logo" src="./assets/img/logo.svg" alt="logo">
-        <nav class="nav">
-            <ul>
-                <li>HOME</li>
-                <li>SKILS</li>
-                <li>PROJECTS</li>
-            </ul>
-        </nav>
+        <div class="navheader">
+            <div class="menu">
+                <img class="logo" src="./assets/img/logo.svg" alt="logo">
+                <button class="menuBars"><i class="uis uis-bars"></i></button>
+            </div>
+            <nav class="nav"> 
+                <ul class="navMenu hide">
+                    <li>HOME</li>
+                    <li>SKILS</li>
+                    <li>PROJECTS</li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <div class="perfil section">
         <div class="secPerfil">
@@ -61,5 +67,8 @@
                 <img src="assets/img/moon.png" alt="LUA">
             </div>
     </div>    
+
+
+    <script src="assets/js/navbar.js"></script>
 </body>
 </html>
