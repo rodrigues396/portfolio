@@ -1,0 +1,50 @@
+.secSkils{
+     width: 100%;
+     /* height: 100vh; */
+     max-width: 600px;
+     border-radius: 4px;
+     display: flex;
+     justify-content: center;
+     background-color: var(--cor01);
+ }
+ .cardSkils{
+     margin: 10px 20px 20px 20px;
+     width: 100%;
+     max-width: 450px;
+     height: 334px;
+     display: grid;
+     grid-template-columns: repeat(3, auto);
+     justify-content: center;
+     align-items: center;
+     justify-content: space-between;
+ 
+ }
+ .skil{
+     width: 84px;
+     height: 93px;
+     border-radius: 10px;
+     background-color: var(--cor00);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .skil img{
+     height: 50px;
+     filter: grayscale(1);
+ }
+ .skil img:hover{
+    filter: grayscale(0);
+ }
+
+ .cardSkilLogo{
+     font-size: 0.8em;
+     display: flex;
+ }
+ .cardlogoName{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
+ .cardlogoName p{
+     color: var(--cor01);
+ }
