@@ -1,12 +1,8 @@
-.header{
-    padding: 10px;
-}
-
 .menu{
     display: flex;
     justify-content: space-between;
 }
-.menu .logo{
+.menu .logoR{
     width: 80px;
 }
 .menuBars{
