@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/secperfil.css">
     <link rel="stylesheet" href="assets/css/secskils.css">
+    <link rel="stylesheet" href="assets/css/secproject.css">
 
     <title>Rodrigues</title>
 </head>
@@ -116,7 +117,35 @@
             </div>
         </div>
     </div>  
+    <div class="title">
+        <h2>My Projects</h2>
+    </div>
+    <div class="projects"> 
+        <div class="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/assets/img/rodriguesfilmes.png" alt="Projeto 1">
+                    <div class="carousel-caption">
+                        <h3>Catalogo de Filmes</h3>
+                        <p>Veja detalhes sobre filmes recem lancados e favorite do seu. O site e alimentado por uma API externa.</p>
+                        <a href="https://rodrigues396.github.io/rodrigues-filmes/" class="viewproject" target="_blank">View Project</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/img/syschamadospng.png" alt="Projeto 2">
+                    <div class="carousel-caption">
+                        <h3>Sistema de Chamados</h3>
+                        <p>Faca login e gerencia as demandas dos servico que sua empresa disponiliza. Projeto utiliza o FireBase no armazenamento de dados</p>
+                        <a href="https://rodrigues396.github.io/syschamados/" class="viewproject" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control prev" onclick="prevSlide()">&#10094;</button>
+            <button class="carousel-control next" onclick="nextSlide()">&#10095;</button>
+        </div>
+    </div>
 
     <script src="assets/js/navbar.js"></script>
+    <script src="assets/js/carousel.js"></script>
 </body>
 </html>
